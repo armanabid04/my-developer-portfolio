@@ -8,7 +8,7 @@ h1{
 .color-name{
     color: coral;
 }
-section{
+.flexible{
     display: flex;
     margin-bottom: 15%;
 }
@@ -24,10 +24,20 @@ section{
     background-image: linear-gradient(tomato,orange);
     text-decoration: none;
     padding: 6px 18px;
-    border-radius: 8%;
+    border-radius: 6px;
 
 }
 .top{
     background-image: url(Sources/images/top-banner.png);
     background-repeat: no-repeat;
+}
+.bottom1{
+    width: 84%;
+    margin-left: 4%;
+    margin-right: 4%;
+    box-shadow: 10px 15px 15px gray;
+    padding: 10px;
+}
+h2{
+    font-size: 30px;
 }
