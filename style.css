@@ -2,7 +2,7 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 h1{
-    font-size: 50px;
+    font-size: 40px;
 }
 .color-name{
     color: coral;
@@ -16,4 +16,12 @@ section{
 }
 .half img{
     width: 80%;
+}
+.link-button{
+    color: whitesmoke;
+    background-image: linear-gradient(tomato,orange);
+    text-decoration: none;
+    padding: 6px 18px;
+    border-radius: 8%;
+
 }
