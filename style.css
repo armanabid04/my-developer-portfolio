@@ -10,7 +10,7 @@ h1{
 }
 .flexible{
     display: flex;
-    margin-bottom: 15%;
+    margin-bottom: 10%;
 }
 .half{
     width: 50%;
@@ -35,9 +35,27 @@ h1{
     width: 84%;
     margin-left: 4%;
     margin-right: 4%;
-    box-shadow: 10px 15px 15px gray;
+    box-shadow: 10px 15px 30px gray;
     padding: 10px;
+    border-left-width:8px;
+    border-left-style: solid;
 }
 h2{
     font-size: 30px;
+}
+.bottom{
+    background-image: url(Sources/images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#left
+{
+    border-left-color: coral;
+}
+#right
+{
+    border-left-color: blue
+}
+footer p{
+    text-align: center;
 }
